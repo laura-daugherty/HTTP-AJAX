@@ -1,12 +1,11 @@
 import React from 'react';
 
-class NewFriendForm extends React.Component {
+class FriendForm extends React.Component {
   state = {
     friend: {
       name: '',
       age: '',
       email: '',
-      id: ''
     }
   };
 
@@ -34,7 +33,6 @@ class NewFriendForm extends React.Component {
         name: '',
         age: '',
         email: '',
-        id: ''
       }
     });
   };
@@ -82,4 +80,4 @@ class NewFriendForm extends React.Component {
   }
 }
 
-export default NewFriendForm;
+export default FriendForm;
